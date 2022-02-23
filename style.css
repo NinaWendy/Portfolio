@@ -4,28 +4,35 @@
     margin: 0;
     box-sizing: border-box;
 }
-.close{
+
+.close {
     color: black;
     font-weight: 900;
     float: right;
     margin: 1em;
 }
-.open{
+
+.open {
     padding: 1em;
     padding-left: 2em;
     padding-right: 2em;
     color: white;
     background-color: black;
+    border-color: black;
 }
-nav {
+
+#nav {
     font-family: "quicksand";
-    display: block;
-    /* margin-left: 5em; */
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: .5s;
     margin-top: 0;
-    height: 100vh;
-    width: 300px;
     background-color: #f1f1f1;
-    /* display: none; */
 }
 
 .profile {
@@ -48,7 +55,6 @@ h3 {
 .title {
     font-size: 0.9em;
     text-align: center;
-    /* margin-left: 0em; */
     margin-bottom: 1.5em;
 }
 
@@ -64,6 +70,7 @@ h3 {
 
 a {
     text-decoration: none;
+    transition: 0.3s;
 }
 
 a:hover {
@@ -77,4 +84,8 @@ a:hover {
     color: rgb(85, 84, 84);
     font-size: 0.8em;
     text-align: center;
+}
+
+#main {
+    transition: margin-left .5s;
 }
