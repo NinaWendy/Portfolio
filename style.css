@@ -81,7 +81,7 @@ a {
     transition: 0.3s;
 }
 
-a:hover {
+.navbar a:hover {
     text-decoration: underline;
     text-decoration-color: rgb(0, 183, 255);
     text-decoration-thickness: 1px;
@@ -97,11 +97,6 @@ a:hover {
 #main {
     transition: margin-left .5s;
     height: 100vh;
-    /* background-size: contain;
-    background-position: right; */
-    /* background-image: url("Assets/InShot_20200906_120614252.jpg");
-    background-repeat: no-repeat; */
-    /* float: right; */
     background-image: linear-gradient(90deg,black 59%,transparent 50%);
 }
 .name{
@@ -123,4 +118,39 @@ h2{
 .dev{
     color:rgb(0, 183, 255) ;
     margin-left: 0.5em;
+}
+.About{margin-top: -3em;
+    background-color: rgb(2, 48, 66) ;
+    margin-left: 18em;
+    padding: 6em;
+    text-align: center;
+    margin-right: 18em;
+    /* color: white; */
+}
+h4{
+    margin-bottom: 1em;
+    font-size: 2em;
+    text-decoration: underline;
+    text-decoration-thickness:0.2em ;
+    /* text-decoration-color: rgb(0, 183, 255); */
+}
+/* .under{
+    height: 1px;
+    width: 2px;
+    color: blue;
+} */
+.abt{
+    color: white;
+    margin-bottom: 2em;
+    font-size: 1.1em;
+}
+.rsm {
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    /* margin-top: 5em; */
+    background-color: transparent;
+    border: 1px solid rgb(0, 183, 255);
+    color:  black;
+    text-decoration-style: none;
 }
