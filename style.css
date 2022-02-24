@@ -119,30 +119,29 @@ h2{
     color:rgb(0, 183, 255) ;
     margin-left: 0.5em;
 }
-.About{margin-top: -3em;
-    background-color: rgb(2, 48, 66) ;
-    margin-left: 18em;
-    padding: 6em;
-    text-align: center;
-    margin-right: 18em;
-    /* color: white; */
-}
+
 h4{
     margin-bottom: 1em;
     font-size: 2em;
     text-decoration: underline;
     text-decoration-thickness:0.2em ;
-    /* text-decoration-color: rgb(0, 183, 255); */
 }
-/* .under{
-    height: 1px;
-    width: 2px;
-    color: blue;
-} */
 .abt{
     color: white;
     margin-bottom: 2em;
     font-size: 1.1em;
+}
+.About{
+    margin-top: -5em;
+    margin-bottom: 0em;
+    background-color: rgb(2, 48, 66) ;
+    margin-left: 18.75em;
+    padding: 8em;
+    text-align: center;
+    margin-right: 18em;
+    z-index: 1;
+    position: relative;
+    /* color: white; */
 }
 .rsm {
     padding: 1em;
@@ -154,3 +153,67 @@ h4{
     color:  black;
     text-decoration-style: none;
 }
+/* .sec1{
+    height: 100vh;
+    margin-top: -5em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.9)) , url("/Assets/tech.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+.one{
+    margin-top: -35em;
+    text-align: center;
+    color: white;
+    margin-bottom: 30em;
+}
+h5{
+    font-size: 50px;
+}
+.two p{
+    text-align: justify;
+    margin-left: 20em;
+    margin-top: 2.5em;
+}
+.hl{
+    border-bottom: 17px solid rgb(0, 183, 255);
+    width: 24%;
+    margin-left: 4.5em;
+    float: center;
+    margin-top: -1em;
+}
+.hl2{
+    border-bottom: 17px solid rgb(0, 183, 255);
+    width: 23%;
+    margin-left: 5.5em;
+    float: center;
+    margin-top: -1em;
+}
+.hl3{
+    border-bottom: 17px solid rgb(0, 183, 255);
+    width: 20%;
+    margin-left: 3.5em;
+    float: center;
+    margin-top: -0.9em;
+}
+.hl4{
+    border-bottom: 17px solid rgb(0, 183, 255);
+    width: 70%;
+    margin-left: 4.5em;
+    float: center;
+    margin-top: -1em;
+}
+.hl5{
+    border-bottom: 17px solid rgb(0, 183, 255);
+    width: 23%;
+    margin-left: 5.9em;
+    float: center;
+    margin-top: -1em;
+}
+.on1{
+    display: flex;
+    justify-content: space-between;
+} */
+/* .fe{
+    color:wheat ;
+} */
