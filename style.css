@@ -6,13 +6,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-size: 100vh;
     background-position-x: right;
     background-image: url("Assets/InShot_20200906_120614252.jpg");
     background-blend-mode: darken;
     background-repeat: no-repeat;
 }
+
 .close {
     color: black;
     font-weight: 900;
@@ -97,123 +99,196 @@ a {
 #main {
     transition: margin-left .5s;
     height: 100vh;
-    background-image: linear-gradient(90deg,black 59%,transparent 50%);
+    background-image: linear-gradient(90deg, black 59%, transparent 50%);
 }
-.name{
+
+.name {
     color: white;
     font-family: "roboto";
     text-align: justify;
     margin-top: 10em;
     margin-left: 5em;
 }
-h1{
+
+h1 {
     font-size: 114px;
     font-family: "";
     font-weight: 900;
 }
-h2{
+
+h2 {
     font-size: 48px;
     font-weight: thin;
 }
-.dev{
-    color:rgb(0, 183, 255) ;
+
+.dev {
+    color: rgb(0, 183, 255);
     margin-left: 0.5em;
 }
 
-h4{
+h4 {
     margin-bottom: 1em;
     font-size: 2em;
     text-decoration: underline;
-    text-decoration-thickness:0.2em ;
+    text-decoration-thickness: 0.2em;
 }
-.abt{
+
+.abt {
     color: white;
     margin-bottom: 2em;
+    font-family: "quicksand";
     font-size: 1.1em;
 }
-.About{
-    margin-top: -5em;
-    margin-bottom: 0em;
-    background-color: rgb(2, 48, 66) ;
+
+.About {
+    margin-top: -4em;
+    margin-bottom: 2em;
+    background-color: rgb(2, 48, 66);
     margin-left: 18.75em;
-    padding: 8em;
+    padding: 5em;
     text-align: center;
     margin-right: 18em;
     z-index: 1;
     position: relative;
-    /* color: white; */
 }
+
 .rsm {
     padding: 1em;
     padding-left: 2em;
     padding-right: 2em;
-    /* margin-top: 5em; */
     background-color: transparent;
     border: 1px solid rgb(0, 183, 255);
-    color:  black;
+    color: black;
     text-decoration-style: none;
 }
-.sec1{
+
+.sec1 {
     height: 100vh;
     margin-top: -5em;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.9)) , url("/Assets/tech.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.9)), url("Assets/tech.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
+    margin-bottom: 0;
 }
-.one{
+
+.one {
     margin-top: -35em;
     text-align: center;
     color: white;
-    margin-bottom: 30em;
+    margin-bottom: 15em;
 }
-h5{
+
+.pro {
+    font-family: "quicksand";
+}
+
+h5 {
     font-size: 50px;
+    font-family: "";
+    font-weight: bold;
 }
-.two p{
+
+.two p {
     text-align: justify;
     margin-left: 20em;
     margin-top: 2.5em;
 }
-.hl{
+
+.hl {
     border-bottom: 17px solid rgb(0, 183, 255);
     width: 24%;
     margin-left: 4.5em;
     float: center;
     margin-top: -1em;
 }
-.hl2{
+
+.hl2 {
     border-bottom: 17px solid rgb(0, 183, 255);
     width: 23%;
     margin-left: 5.5em;
     float: center;
     margin-top: -1em;
 }
-.hl3{
+
+.hl3 {
     border-bottom: 17px solid rgb(0, 183, 255);
     width: 20%;
     margin-left: 3.5em;
     float: center;
     margin-top: -0.9em;
 }
-.hl4{
+
+.hl4 {
     border-bottom: 17px solid rgb(0, 183, 255);
     width: 70%;
     margin-left: 4.5em;
     float: center;
     margin-top: -1em;
 }
-.hl5{
+
+.hl5 {
     border-bottom: 17px solid rgb(0, 183, 255);
     width: 23%;
     margin-left: 5.9em;
     float: center;
     margin-top: -1em;
 }
-.on1{
+
+.on1 {
     display: flex;
     justify-content: space-between;
 }
-/* .fe{
-    color:wheat ;
+
+/* .two {
+    text-align: center;
+}
+
+.accord {
+    background-color: #eee;
+    color: #444;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-left: 20em;
+    transition: 0.4s;
+    margin-bottom:0.5em ;
+}
+
+.card {
+    padding:5px;
+    display: none;
+    background-color:white;
+    overflow: hidden;
+    margin-top: 0;
+    
+}
+
+.active,
+.accord:hover {
+    background-color: #ccc;
+}
+.detail{
+    margin-top: 2em;
+    margin-bottom: 2em; */
+/* }
+.three{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.9)), url("Assets/istockphoto-143177719-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.vl{
+    border-left: 6px solid rgb(0, 183, 255) ;
+    height: 600px;
+    margin-left:40em ;
+}
+.eso{
+
+}
+.exo{
+    
 } */
