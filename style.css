@@ -106,18 +106,18 @@ a {
     color: white;
     font-family: "roboto";
     text-align: justify;
-    margin-top: 10em;
+    margin-top: 6em;
     margin-left: 5em;
 }
 
 h1 {
-    font-size: 114px;
+    font-size: 75px;
     font-family: "";
     font-weight: 900;
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: thin;
 }
 
@@ -129,27 +129,33 @@ h2 {
 h4 {
     margin-bottom: 1em;
     font-size: 2em;
+    text-align: center;
     text-decoration: underline;
     text-decoration-thickness: 0.2em;
 }
 
 .abt {
     color: white;
-    margin-bottom: 2em;
+    /* margin-bottom: 3em; */
     font-family: "quicksand";
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .About {
-    margin-top: -4em;
+    margin-top: -2em;
     margin-bottom: 2em;
     background-color: rgb(2, 48, 66);
     margin-left: 18.75em;
-    padding: 5em;
-    text-align: center;
-    margin-right: 18em;
+    padding: 4em;
+    /* text-align: ; */
+    margin-right: 8em;
     z-index: 1;
     position: relative;
+}
+.heading{
+    font-weight: bold;
+    font-family: "quicksand";
+
 }
 
 .rsm {
@@ -173,10 +179,10 @@ h4 {
 }
 
 .one {
-    margin-top: -35em;
+    margin-top: -24em;
     text-align: center;
     color: white;
-    margin-bottom: 15em;
+    margin-bottom: 6em;
 }
 
 .pro {
@@ -184,9 +190,10 @@ h4 {
 }
 
 h5 {
-    font-size: 50px;
+    font-size: 45px;
     font-family: "";
     font-weight: bold;
+    /* text-align: center; */
 }
 
 .two p {
@@ -264,7 +271,7 @@ h5 {
     background-color:white;
     overflow: hidden;
     margin-top: 0;
-    
+    /* margin-bottom: 1em; */
 }
 
 .active,
@@ -274,21 +281,49 @@ h5 {
 .detail{
     margin-top: 2em;
     margin-bottom: 2em;
-/* }
-.three{
+}
+/* .three{
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.9)), url("Assets/istockphoto-143177719-612x612.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    display: flex;
+    color: white;
 }
 .vl{
     border-left: 6px solid rgb(0, 183, 255) ;
-    height: 600px;
-    margin-left:40em ;
+    height: 350px;
+    width: 0px;
+    border-left-style: dotted;
+    margin-left:-5em ;
+    margin-top: 6em;
+}.exp{
+    margin-left: -25em;
+    margin-top: -3em;
+    font-size: 1em;
+    font-family: "quicksand";
+    text-align: justify;
 }
-.eso{
-
+.exp2{
+    margin-left: 5em;
+    margin-top: 2em;
+    margin-right: 10em;
+    font-size: 1em;
+    font-family: "quicksand";
+    text-align: justify;
 }
-.exo{
-    
+.exp3{
+    margin-left: -25em;
+    margin-top: 7em;
+    font-size: 1em;
+    font-family: "quicksand";
+    text-align: justify;
+}
+.mv{
+    margin-top: 10em;
+}
+.th3{
+    margin-left: 8em;
+    margin-right: 0;
+    margin-top: 1em;
 } */
