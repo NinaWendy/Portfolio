@@ -374,7 +374,7 @@ video {
     margin-left: 2em;
 }
 
-/* .last {
+.last {
     display: flex;
     justify-content: space-between;
     margin-top: 2em;
@@ -420,4 +420,4 @@ input {
 .log{
     margin-top: 1em;
     margin-left: 5em;
-} */
+}
