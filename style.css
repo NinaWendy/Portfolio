@@ -282,7 +282,7 @@ h5 {
     margin-top: 2em;
     margin-bottom: 2em;
 }
-/* .three{
+.three{
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.9)), url("Assets/istockphoto-143177719-612x612.jpg");
     background-repeat: no-repeat;
@@ -326,4 +326,4 @@ h5 {
     margin-left: 8em;
     margin-right: 0;
     margin-top: 1em;
-} */
+}
