@@ -106,12 +106,12 @@ a {
     color: white;
     font-family: "roboto";
     text-align: justify;
-    margin-top: 6em;
+    margin-top: 9em;
     margin-left: 5em;
 }
 
 h1 {
-    font-size: 75px;
+    font-size: 114px;
     font-family: "";
     font-weight: 900;
 }
@@ -142,13 +142,13 @@ h4 {
 }
 
 .About {
-    margin-top: -2em;
+    margin-top: -3em;
     margin-bottom: 2em;
     background-color: rgb(2, 48, 66);
     margin-left: 18.75em;
     padding: 4em;
     /* text-align: ; */
-    margin-right: 8em;
+    margin-right: 15em;
     z-index: 1;
     position: relative;
 }
@@ -180,10 +180,10 @@ h4 {
 }
 
 .one {
-    margin-top: -24em;
+    margin-top: -34em;
     text-align: center;
     color: white;
-    margin-bottom: 6em;
+    margin-bottom: 16em;
 }
 
 .pro {
@@ -194,6 +194,7 @@ h5 {
     font-size: 45px;
     font-family: "";
     font-weight: bold;
+    margin-right: 1m;
     /* text-align: center; */
 }
 
@@ -206,7 +207,7 @@ h5 {
 .hl {
     border-bottom: 17px solid rgb(0, 183, 255);
     width: 24%;
-    margin-left: 4.5em;
+    margin-left: 6.5em;
     float: center;
     margin-top: -1em;
 }
@@ -214,7 +215,7 @@ h5 {
 .hl2 {
     border-bottom: 17px solid rgb(0, 183, 255);
     width: 23%;
-    margin-left: 5.5em;
+    margin-left: 7.5em;
     float: center;
     margin-top: -1em;
 }
@@ -222,7 +223,7 @@ h5 {
 .hl3 {
     border-bottom: 17px solid rgb(0, 183, 255);
     width: 20%;
-    margin-left: 3.5em;
+    margin-left: 5.5em;
     float: center;
     margin-top: -0.9em;
 }
@@ -230,7 +231,7 @@ h5 {
 .hl4 {
     border-bottom: 17px solid rgb(0, 183, 255);
     width: 70%;
-    margin-left: 4.5em;
+    margin-left: 6.5em;
     float: center;
     margin-top: -1em;
 }
@@ -296,11 +297,11 @@ h5 {
 
 .vl {
     border-left: 6px solid rgb(0, 183, 255);
-    height: 350px;
+    height: 400px;
     width: 0px;
     border-left-style: dotted;
     margin-left: -5em;
-    margin-top: 6em;
+    margin-top: 10em;
 }
 
 .exp {
@@ -312,8 +313,8 @@ h5 {
 }
 
 .exp2 {
-    margin-left: 5em;
-    margin-top: 2em;
+    margin-left: 14em;
+    margin-top: 4em;
     margin-right: 10em;
     font-size: 1em;
     font-family: "quicksand";
@@ -322,18 +323,19 @@ h5 {
 
 .exp3 {
     margin-left: -25em;
-    margin-top: 7em;
+    margin-top: 8em;
     font-size: 1em;
     font-family: "quicksand";
     text-align: justify;
 }
 
 .mv {
-    margin-top: 10em;
+    margin-top: 15em;
+    margin-left: -8em;
 }
 
 .th3 {
-    margin-left: 8em;
+    margin-left: 12em;
     margin-right: 0;
     margin-top: 1em;
 }
@@ -345,10 +347,13 @@ h5 {
 
 .work {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
-    height: 100vh;
-    margin-top: -2.8em;
+    /* height: 100vh; */
+    /* margin-top: -0.05em; */
+    /* z-index: 1; */
+    padding-top: 2em;
     color: white;
     text-align: center;
+    padding-bottom: 5em;
 }
 
 .wrk {
@@ -396,7 +401,7 @@ input {
     padding: 1.5em;
     width: 30em;
     padding-right: 2em;
-    margin-right: 2em;
+    margin-right: 5em;
     margin-top: 1em;
     border: transparent;
     background-color: rgba(204, 204, 204, 0.253);
