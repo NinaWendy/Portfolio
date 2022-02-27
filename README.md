@@ -1,7 +1,7 @@
 # Portfolio
 
 #### By Wendy Nina
-
+<img src="./Assets/portfolio.png">
 ## Table of Content
 
 + [Description](#description)
