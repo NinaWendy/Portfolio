@@ -3,10 +3,6 @@
 #### By Wendy Nina
 <img src="./Assets/portfolio.png">
 
-<<<<<<< HEAD
-=======
-
->>>>>>> fcff71f437d998ac78764595f1c853da6c240178
 ## Table of Content
 
 + [Description](#description)
